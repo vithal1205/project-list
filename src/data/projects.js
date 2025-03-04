@@ -1,0 +1,36 @@
+const projects = [
+  {
+    id: 1,
+    name: "AI-Powered Search",
+    category: "E-Commerce Platform",
+    status: "On-Track",
+    priority: "High",
+    date: "Oct 1 - Dec 15",
+    progress: 80,
+    team: ["user1", "user2", "user3"],
+    insights: "AI Insights",
+  },
+  {
+    id: 2,
+    name: "User Authentication",
+    category: "Security System",
+    status: "At-Risk",
+    priority: "Medium",
+    date: "Sep 15 - Nov 30",
+    progress: 40,
+    team: ["user4", "user5"],
+    insights: "AI Insights",
+  },
+  {
+    id: 3,
+    name: "Payment Gateway",
+    category: "Financial Module",
+    status: "Blocked",
+    priority: "High",
+    date: "Aug 1 - Oct 30",
+    progress: 20,
+    team: ["user6", "user7"],
+    insights: "AI Insights",
+  },
+];
+export default projects;
